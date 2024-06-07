@@ -62,12 +62,12 @@ public class Special_FP {
                 break;
             case "friday":
                 coffee = "Americano w/ Danish"; // Set coffee type
-                priceofcoffee = 5.49; // Set price to 5.49
+                priceofcoffee = 5.49;
                 break;
         }
 
         if (coffeeamount > 0) { // if quantity is greater than 0
-            System.out.println("Thank you"); // Print thank you message
+            System.out.println("Thank you");
         } else {
             System.out.println("I am sad you won't be ordering our signature drink of the day."); //if not print sad message
         }
@@ -85,7 +85,7 @@ public class Special_FP {
             total -= discount; //Subtract discount from total
             System.out.println("20% discount given");
 
-        }else {
+        }else {//Set message if no discount was given
             System.out.println("No discount has been given today.");
         }
 
